@@ -1,6 +1,6 @@
 <?php include 'connection.php'; 
 
- $select = "SELECT * FROM activity1Finals";
+ $select = "SELECT * FROM activity1Finals_grades";
  $run_sql = mysqli_query($con, $select);
 
  $html='
